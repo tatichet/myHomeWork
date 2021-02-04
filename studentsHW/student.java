@@ -1,10 +1,23 @@
 package studentsHW;
 
-public class student {
+public class Student {
+   String firstName;
+   String lastName;
+   int rating;
+   
+   
+   public boolean isbetterStudent(Student st1, Student st2) {
+		  if(st1.rating > st2.rating) {			 
+	      return true;	   
+		   }else {			 
+			   return false;
+		   }
+	   }
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+public void print() {
+   System.out.println("Better student");
+   System.out.println("First name:" + firstName);
+   System.out.println("Last name:" + lastName);
+   System.out.println("Rating:" + rating);
+}
 }
