@@ -27,6 +27,7 @@ class SubChild1 extends Child1 {
 }
 public class Second {
 	public static void main(String[] args) {
+		
 		Parent subchi = new SubChild();		
 		System.out.println("*****");
 		Parent subchi1 = new SubChild1();		
